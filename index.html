@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="" class="logo"><img src="assets/img/amg-removebg-preview.png" width="120px" alt=""></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Profile</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Welcome to Mercedes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nobis magnam molestiae provident vitae, voluptatibus iste ad eligendi sed harum, totam sunt nostrum fugiat minima at nam quaerat laudantium natus.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div class="imgbox">
+                <img src="assets/img/gtb.png" width="550px" class="heroimg" alt="">
+            </div>
+        </div>
+        <ul class="subhero">
+            <li><img src="assets/img/one2.png" alt="" class="subhero1" onmouseenter="imgslider('assets/img/one2.png')">
+            </li>
+            <li><img src="assets/img/slr1.png" alt="" class="subhero1" onmouseenter="imgslider('assets/img/slr1.png')">
+            </li>
+            <li><img src="assets/img/gtb.png" alt="" class="subhero1" onmouseenter="imgslider('assets/img/gtb.png')">
+            </li>
+        </ul>
+        <ul class="sosmed">
+            <li><a target="_blank" href="https://www.instagram.com/mercedesamg/"><img src="assets/img/ig.png" width="30px" alt=""></a>
+            </li>
+            <li><a target="_blank" href="https://www.facebook.com/MercedesAMG/"><img src="assets/img/fb-removebg-preview.png" width="30px" alt=""></a>
+            </li>
+            <li><a target="_blank" href="https://twitter.com/MercedesAMG"><img src="assets/img/twt-removebg-preview.png" width="30px" alt=""></a>
+            </li>
+        </ul>
+    </section>
+    <div class="footer">
+        <h2>&copy; Mercedes 2023</h2>
+    </div>
+    <script type="text/javascript">
+        function imgslider(select)
+        {
+            document.querySelector('.heroimg').src = select
+        }
+    </script>
+</body>
+</html>
